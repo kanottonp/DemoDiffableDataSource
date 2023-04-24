@@ -16,6 +16,9 @@
 		BB4C559729F6623200D1C702 /* DemoDiffableDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C559629F6623200D1C702 /* DemoDiffableDataSourceTests.swift */; };
 		BB4C55A129F6623200D1C702 /* DemoDiffableDataSourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C55A029F6623200D1C702 /* DemoDiffableDataSourceUITests.swift */; };
 		BB4C55A329F6623200D1C702 /* DemoDiffableDataSourceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C55A229F6623200D1C702 /* DemoDiffableDataSourceUITestsLaunchTests.swift */; };
+		BB4C55B229F6D9BB00D1C702 /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C55B129F6D9BB00D1C702 /* ExampleCell.swift */; };
+		BB4C55B429F6D9EC00D1C702 /* ExampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB4C55B329F6D9EC00D1C702 /* ExampleCell.xib */; };
+		BB4C55B629F6DA9000D1C702 /* ExampleTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C55B529F6DA9000D1C702 /* ExampleTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		BB4C559C29F6623200D1C702 /* DemoDiffableDataSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoDiffableDataSourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4C55A029F6623200D1C702 /* DemoDiffableDataSourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDiffableDataSourceUITests.swift; sourceTree = "<group>"; };
 		BB4C55A229F6623200D1C702 /* DemoDiffableDataSourceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDiffableDataSourceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB4C55B129F6D9BB00D1C702 /* ExampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
+		BB4C55B329F6D9EC00D1C702 /* ExampleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleCell.xib; sourceTree = "<group>"; };
+		BB4C55B529F6DA9000D1C702 /* ExampleTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				BB4C557F29F6623100D1C702 /* AppDelegate.swift */,
+				BB4C558829F6623200D1C702 /* Assets.xcassets */,
+				BB4C55B129F6D9BB00D1C702 /* ExampleCell.swift */,
+				BB4C55B329F6D9EC00D1C702 /* ExampleCell.xib */,
+				BB4C558D29F6623200D1C702 /* Info.plist */,
+				BB4C558A29F6623200D1C702 /* LaunchScreen.storyboard */,
+				BB4C558529F6623100D1C702 /* Main.storyboard */,
 				BB4C558129F6623100D1C702 /* SceneDelegate.swift */,
 				BB4C558329F6623100D1C702 /* ViewController.swift */,
-				BB4C558529F6623100D1C702 /* Main.storyboard */,
-				BB4C558829F6623200D1C702 /* Assets.xcassets */,
-				BB4C558A29F6623200D1C702 /* LaunchScreen.storyboard */,
-				BB4C558D29F6623200D1C702 /* Info.plist */,
+				BB4C55B529F6DA9000D1C702 /* ExampleTable.swift */,
 			);
 			path = DemoDiffableDataSource;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB4C55B429F6D9EC00D1C702 /* ExampleCell.xib in Resources */,
 				BB4C558C29F6623200D1C702 /* LaunchScreen.storyboard in Resources */,
 				BB4C558929F6623200D1C702 /* Assets.xcassets in Resources */,
 				BB4C558729F6623100D1C702 /* Main.storyboard in Resources */,
@@ -258,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB4C55B229F6D9BB00D1C702 /* ExampleCell.swift in Sources */,
+				BB4C55B629F6DA9000D1C702 /* ExampleTable.swift in Sources */,
 				BB4C558429F6623100D1C702 /* ViewController.swift in Sources */,
 				BB4C558029F6623100D1C702 /* AppDelegate.swift in Sources */,
 				BB4C558229F6623100D1C702 /* SceneDelegate.swift in Sources */,
